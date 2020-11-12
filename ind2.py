@@ -17,7 +17,7 @@ if __name__ == '__main__':
     for i in A:
         if i < 0:
             rez += i
-    print("1)""%.2f" % rez)
+    print(f'1) {rez:.2f}')
 
 # 2)
     S = []
